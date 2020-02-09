@@ -1,0 +1,27 @@
+.footer{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 15px;
+    &__socials{
+        max-width: 317px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        a{
+            color: #cccccc;
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+    &__copyright{
+        margin-top: 15px;
+        a{
+            opacity: 0.5;
+            color: #ffffff;
+            font-family: Open Sans;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}

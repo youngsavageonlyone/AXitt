@@ -1,0 +1,14 @@
+@import "reset.scss";
+@import "header.scss";
+@import "brand-bar.scss";
+
+@import "feature-2.scss";
+
+@import "footer.scss";
+
+.wrapper{
+    max-width: 1160px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
